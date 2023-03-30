@@ -134,3 +134,14 @@ header {
   color: #fff;
   background-color: #136c72;
 }
+
+@media (max-width: 600px) {
+  .row {
+    flex-direction: column;
+    gap: 20px;
+  }
+  .hero__img,
+  .hero__text {
+    width: 100%;
+  }
+}
