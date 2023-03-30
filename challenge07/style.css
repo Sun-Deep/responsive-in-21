@@ -1,0 +1,86 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+  font-size: 1.3rem;
+}
+
+img {
+  max-width: 100%;
+}
+
+h1 {
+  font-size: 3rem;
+  margin-top: 0;
+}
+
+.hero__container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 660px;
+  background-color: #f3eed9;
+  flex-direction: column;
+}
+
+.hero__title {
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 10px;
+}
+
+.about {
+  padding: 30px 60px;
+}
+
+.hero__description {
+  font-family: "Playfair Display", serif;
+  font-size: 60px;
+  text-align: center;
+  width: 700px;
+  color: #824936;
+}
+
+.about__title {
+  text-align: center;
+  font-family: "Playfair Display", serif;
+  color: #824936;
+  font-size: 36px;
+}
+
+.about__container {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+}
+
+.gallery__one,
+.gallery__two {
+  background-color: #222c2a;
+  display: flex;
+  justify-content: center;
+  gap: 36px;
+  padding: 30px 60px;
+  color: white;
+}
+
+.text__left {
+  width: 50%;
+}
+
+.text__left h2 {
+  font-size: 21px;
+  color: #f3eed9;
+  font-family: "Playfair Display", serif;
+}
+
+.gallery__two {
+  background-color: #824936;
+}
