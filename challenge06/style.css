@@ -144,4 +144,12 @@ header {
   .hero__text {
     width: 100%;
   }
+
+  .sidebar {
+    width: 100%;
+  }
+
+  .primary-content {
+    width: 100%;
+  }
 }
